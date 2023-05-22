@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/gory_reka_sneg_93245_1920x1080.jpg);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-position: center center;
+    color: aqua;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.big-text {
+    font-size: 4rem;
+    margin: 10vh;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.countdown-container {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.countdown-container span {
+    font-weight: bold;
+}
+
